@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
+    "@ignite-ui/eslint-config": "*"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.3.5",
