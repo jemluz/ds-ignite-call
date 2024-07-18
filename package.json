@@ -1,9 +1,18 @@
 {
   "private": true,
+  "name": "ds-ignite-call",
   "workspaces": [
     "packages/*"
   ],
+  "packageManager": "npm@10.2.4",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
   "dependencies": {
     "@stitches/react": "^1.2.8"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.7"
   }
 }
