@@ -1,4 +1,5 @@
 export * from './components/Box'
+export * from './components/Text'
 
 // Another form of define props
 // export type ButtonProps = {
