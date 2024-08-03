@@ -105,3 +105,5 @@ export interface ButtonProps extends ComponentProps<typeof Button> {
   size?: ButtonSizes
   disabled?: boolean
 }
+
+Button.displayName = 'Button'
