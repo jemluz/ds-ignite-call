@@ -32,7 +32,7 @@ const config: StorybookConfig = {
 
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/design-system-ignite-call/'
+      config.base = '/ds-ignite-call/'
     }
 
     return config
