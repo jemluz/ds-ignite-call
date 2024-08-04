@@ -26,5 +26,12 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag",
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/design-system-ignite-call/'
+    }
+
+    return config
+  }
 };
 export default config;
