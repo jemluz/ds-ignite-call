@@ -31,7 +31,6 @@ jobs:
       - name: Deploy storybook
         # enter on storybook folder
         working-directory: ./packages/docs
-
         # run deploy command
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
