@@ -9,7 +9,7 @@ import { join, dirname } from "path";
 function getAbsolutePath(value: string): any {
   return dirname(require.resolve(join(value, "package.json")));
 }
-export default {
+const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
 
   addons: [
@@ -30,20 +30,16 @@ export default {
 
   docs: {},
 
-  async viteFinal(config, { configType }) {
-    const { mergeConfig } = await import('vite');
-
+  viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
       config.base = '/ds-ignite-call/'
     }
 
-    return mergeConfig(config, {
-      // Your environment configuration here
-    });
+    return config
   },
 
   typescript: {
     reactDocgen: "react-docgen-typescript"
   }
 };
-// export default config;
+export default config;

@@ -25,6 +25,6 @@ jobs:
 
       - name: Deploy storybook # do deploy
         working-directory: ./packages/docs # enter on storybook folder
-        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static # run deploy command
+        run: touch storybook-static/.nojekyll && npm run deploy-storybook -- --ci --existing-output-dir=storybook-static # run deploy command
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
