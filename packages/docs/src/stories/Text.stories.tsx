@@ -31,6 +31,7 @@ export default {
       },
     },
   },
+  tags: ['autodocs'],
 } as Meta
 
 export const Primary: StoryObj<TextProps> = {}

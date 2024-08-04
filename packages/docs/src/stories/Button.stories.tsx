@@ -33,6 +33,7 @@ export default {
     },
     onClick: { action: 'clicked' },
   },
+  tags: ['autodocs'],
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}

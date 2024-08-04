@@ -15,6 +15,7 @@ export default {
       },
     },
   },
+  tags: ['autodocs'],
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

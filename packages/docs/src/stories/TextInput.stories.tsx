@@ -18,6 +18,7 @@ export default {
       )
     },
   ],
+  tags: ['autodocs'],
 } as Meta<TextInputProps>
 
 export const Primary: StoryObj<TextInputProps> = {

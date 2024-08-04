@@ -15,6 +15,7 @@ export default {
       },
     },
   },
+  tags: ['autodocs'],
 } as Meta<HeadingProps>
 
 export const Primary: StoryObj<HeadingProps> = {}
