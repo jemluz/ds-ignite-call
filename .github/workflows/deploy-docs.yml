@@ -25,7 +25,7 @@ jobs:
 
       - run: npm run build # run turborepo build
         env:
-          TURBO_TOKEN: UCEPRMygyhtEMyWhlKaJNAbo
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: jemima-luzs-projects
 
       - name: Deploy storybook # do deploy
