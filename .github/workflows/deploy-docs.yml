@@ -22,6 +22,9 @@ jobs:
       - run: npm ci # do npm install (made by ci environment, what will isnt modify the package-lock, this is important!)
 
       - run: npm run build # run turborepo build
+        env:
+          TURBO_TOKEN: UCEPRMygyhtEMyWhlKaJNAbo
+          TURBO_TEAM: jemima-luzs-projects
 
       - name: Deploy storybook # do deploy
         working-directory: ./packages/docs # enter on storybook folder
