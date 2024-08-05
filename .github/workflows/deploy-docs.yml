@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: npm
+          cache-dependency-path: '**/package-lock.json'
 
       - run: npm ci # do npm install (made by ci environment, what will isnt modify the package-lock, this is important!)
 
