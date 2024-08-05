@@ -3,7 +3,7 @@ import {
   ButtonProps,
   ButtonSizes,
   ButtonVariants,
-} from "@ignite-ui/react";
+} from "@doing-ignite/react";
 import { ArrowRight } from "@phosphor-icons/react";
 import { Meta, StoryObj } from "@storybook/react";
 
