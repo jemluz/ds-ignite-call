@@ -39,6 +39,10 @@ export const Button = styled('button', {
     cursor: 'not-allowed',
   },
 
+  '&:focus': {
+    boxShadow: '0 0 0 $colors$gray100',
+  },
+
   variants: {
     variant: {
       primary: {

@@ -8,6 +8,8 @@ export * from './components/TextArea'
 export * from './components/Checkbox'
 export * from './components/MultiStep'
 
+export * from './styles'
+
 // Another form of define props
 // export type ButtonProps = {
 //   size: 'small' | 'big'
