@@ -1,5 +1,11 @@
 # @doing-ignite/tokens
 
+## 3.0.0
+
+### Major Changes
+
+- publish docs package
+
 ## 2.0.0
 
 ### Major Changes

@@ -1,5 +1,11 @@
 # @doing-ignite/react
 
+## 4.0.0
+
+### Major Changes
+
+- publish docs package
+
 ## 3.0.0
 
 ### Major Changes
