@@ -1,7 +1,7 @@
 # Ignite Call (Design System - Storybook)
 6/7 projects of Ignite React specialization by @rocketseat-education: Project focused on build a design system and storybook. This design system will be used in the [ignite call project](https://github.com/jemluz/ignite-call).
 
-Hosted at github pages: 
+Hosted at github pages: [jemluz.github.io/ds-ignite-call](https://jemluz.github.io/ds-ignite-call/)
 
 ![image](https://github.com/user-attachments/assets/158de9a5-1750-4013-b5f4-7724322f8139)
 
