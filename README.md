@@ -1,12 +1,12 @@
 # Ignite Call (Design System - Storybook)
+6/7 projects of Ignite React specialization by @rocketseat-education: Project focused on build a design system and storybook. This design system will be used in the [ignite call project](https://github.com/jemluz/ignite-call).
 
-Projeto focado em aprofundar os conhecimentos em design system e storybook. 
-Esse design system será utiliado no projeto ignite call.
+Hosted at github pages: 
 
 ![image](https://github.com/user-attachments/assets/158de9a5-1750-4013-b5f4-7724322f8139)
 
 
-## Requisitos
+## Requirements
 
 - [x] Tokens
 - [x] Button
@@ -18,7 +18,7 @@ Esse design system será utiliado no projeto ignite call.
 - [x] Avatar
 - [x] MultiStep
 
-## Tecnologias e bibliotecas
+## Technologies & Libraries used on this project
 
 - [StoryBook](https://storybook.js.org/) (Components documentation)
 - [TurboRepo](https://turbo.build/) (Multi package build optimization)
@@ -29,35 +29,35 @@ Esse design system será utiliado no projeto ignite call.
 - [Phosphor Icons](https://phosphoricons.com/) (Icons library)
 - [Radix UI](https://www.radix-ui.com/) (Component library)
 
-## Issues com tópicos discutidos/estudados no projeto
+## Issues and Discussions
 
-- ### [A base de um design system #1](https://github.com/jemluz/ds-ignite-call/issues/1)
+- ### [The basis of a design system #1](https://github.com/jemluz/ds-ignite-call/issues/1)
 
-  - Monorepos no npm
-  - Lidando com monorepo
+  - Monorepos in npm
+  - Deal with monorepo
 
-- ### [Design System em React #2](https://github.com/jemluz/ds-ignite-call/issues/2)
+- ### [Design System in React #2](https://github.com/jemluz/ds-ignite-call/issues/2)
 
   - Entendendo o Storybook
-  - Story: Button (anatomia geral de um storie)
-  - Story: Button (adicionando props e melhorando o intelisense)
-  - Documentação de cores
+  - Story: Button (general anatomy of a story)
+  - Story: Button (adding props and improving intellisense)
+  - Color documentation
   - Turborepo
 
-- ### [Componentes do design system #3](https://github.com/jemluz/ds-ignite-call/issues/3)
+- ### [Design System components #3](https://github.com/jemluz/ds-ignite-call/issues/3)
 
-  - Story: Text Input (entendendo decorators)
-  - Story: Checkbox (entendendo data-state e animações no stitches)
-  - Story: Multi Step (outro jeito de passar props)
+  - Story: Text Input (understanding decorators)
+  - Story: Checkbox (understanding data-state and stitches animations)
+  - Story: Multi Step (another way to pass props)
 
-- ### [Melhorias no StoryBook #4](https://github.com/jemluz/ds-ignite-call/issues/4)
+- ### [StoryBook Improvement #4](https://github.com/jemluz/ds-ignite-call/issues/4)
 
-  - Display names dos componentes
-  - Logs de ações nos componentes
-  - Controles nos componentes
-  - Addon de acessibilidade
+  - Components display names
+  - Actions logs in componentes
+  - Components controls
+  - Accessibility addon
  
-- ### [Publicação e manutenção #4](https://github.com/jemluz/ds-ignite-call/issues/5)
+- ### [Publishing and maintenance #4](https://github.com/jemluz/ds-ignite-call/issues/5)
 
-  - Publicando StoryBook
-  - Cache no GitHub Actions
+  - Publishing StoryBook
+  - Cache in GitHub Actions
